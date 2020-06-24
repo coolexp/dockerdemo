@@ -14,7 +14,7 @@ public class HelloController {
     }
     @RequestMapping(value = "/bar", produces = "application/json;charset=UTF-8")
     @Inner
-    public String bar(HttpServletRequest request) {
-        return "bar";
+    public ResultMsg bar(HttpServletRequest request) {
+        return ResultMsg.create(ResultMsg.SUCCESS,"bar");
     }
 }
