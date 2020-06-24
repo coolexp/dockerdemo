@@ -13,6 +13,7 @@ public class HelloController {
         return "foo";
     }
     @RequestMapping(value = "/bar", produces = "application/json;charset=UTF-8")
+    @Inner
     public String bar(HttpServletRequest request) {
         return "bar";
     }
