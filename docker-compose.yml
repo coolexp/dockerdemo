@@ -1,6 +1,6 @@
 version: '2'
 services:
   docker-demo:
-    build: src/main/docker
+    build: .
     ports:
       - "9000:8080"
