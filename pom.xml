@@ -65,7 +65,7 @@
 					<!-- 镜像名称  -->
 					<imageName>${project.artifactId}</imageName>
 					<!-- Dockerfile 文件目录 -->
-					<dockerDirectory>${project.basedir}/src/main/docker</dockerDirectory>
+					<dockerDirectory>${project.basedir}</dockerDirectory>
 					<!-- docker远程服务地址 ，前提是docker服务器需开启远程访问-->
 					<dockerHost>http://192.168.0.230:2375</dockerHost>
 					<resources>
